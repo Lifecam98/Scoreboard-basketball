@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+		<title>Scoreboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="homeSection">
+				<h3>HOME</h3>
+				<input class="homeScore" />
+				<div>
+					<button onclick="addOneHome()">+1</button>
+					<button onclick="addTwoHome()">+2</button>
+					<button onclick="addThreeHome()">+3</button>
+				</div>
+			</div>
+            <div class="resetButton">
+                <button onclick="reset()">RESET</button>
+            </div>
+			<div class="guestSection">
+				<h3>GUEST</h3>
+				<input class="guestScore" />
+                <div>
+					<button onclick="addOneGuest()">+1</button>
+					<button onclick="addTwoGuest()">+2</button>
+					<button onclick="addThreeGuest()">+3</button>
+                </div>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

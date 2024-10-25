@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+	font-family: "Chakra Petch", serif;
+}
+
+.container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 10px;
+	background-color: rgb(21, 21, 94);
+	width: 400px;
+	height: 220px;
+	color: white;
+}
+
+.homeSection,
+.guestSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+button {
+	margin-top: 5px;
+	background-color: rgb(21, 21, 94);
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: white;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.resetButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	padding-top: 160px;
+}
+
+button:hover {
+	background-color: tomato;
+}
+
+input {
+	border: 0;
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	background-color: black;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	font-family: "Silkscreen", sans-serif;
+}
