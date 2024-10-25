@@ -14,7 +14,7 @@ body {
 	border-radius: 10px;
 	background-color: rgb(21, 21, 94);
 	width: 400px;
-	height: 220px;
+	height: 260px;
 	color: white;
 }
 
@@ -24,6 +24,18 @@ body {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.homeButtons,
+.guestButtons {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+}
+.homeButtons button,
+.guestButtons button {
+	margin-bottom: 5px;
 }
 
 button {
@@ -41,7 +53,7 @@ button {
 	justify-content: center;
 	align-items: center;
 	height: 10vh;
-	padding-top: 160px;
+	padding-top: 200px;
 }
 
 button:hover {
